@@ -49,7 +49,7 @@ export const useGraphAnimation = (
         const elapsed = time - start_time;
         const distance = (elapsed / 1000) * speed;
 
-        if (parseFloat(withNoviPath.style.strokeDashoffset) > 0 && parseFloat(withoutNoviPath.style.strokeDashoffset) > 0) {
+        if (isNaN(parseFloat(withoutNoviPath.style.strokeDashoffset)) || parseFloat(withoutNoviPath.style.strokeDashoffset) > 0) {
           withNoviPath.style.strokeDashoffset = `${lengthWithNovi - distance}`;
           withoutNoviPath.style.strokeDashoffset = `${lengthWithoutNovi - distance}`;
         }
