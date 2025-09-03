@@ -58,7 +58,7 @@ const Graph = () => {
           <stop offset="1" stopColor="white" stopOpacity="0" />
         </radialGradient>
 
-        <radialGradient id="paint1_radial_65_3423" cx="0" cy="0" r="1" gradientTransform="matrix(289.174 180.6972 -290.211 94.0961 213.579 20.4604)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="paint1_radial_65_3423" cx="0" cy="0" r="1" gradientTransform="matrix(289.174 180.6972 -290.211 94.0961 50.579 69.4604)" gradientUnits="userSpaceOnUse">
           <stop stopColor="white" />
           <stop offset="1" stopColor="white" stopOpacity="0" />
         </radialGradient>
@@ -89,7 +89,7 @@ const Graph = () => {
         opacity="0.25"
       />
 
-      <circle ref={currentWeightDotRef} cx="4" cy="2" r="6" fill="white" style={{ transition: 'opacity 0.5s ease-in-out' }} />
+      <circle ref={currentWeightDotRef} cx="3" cy="2" r="6" fill="white" style={{ transition: 'opacity 0.5s ease-in-out' }} />
       <text ref={currentWeightTextRef} x="20" y="5" fontSize="14" fill="white" style={{ transition: 'opacity 0.5s ease-in-out' }}>Current weight</text>
 
       <circle ref={withNoviDotRef} cx="4" cy="2" r="6" fill="white" style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }} />
