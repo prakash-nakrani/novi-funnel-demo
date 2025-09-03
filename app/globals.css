@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --font-family-syne: var(--font-syne);
+  --color-novi-purple: #4F4782;
+  --color-novi-dark-purple: #211D36;
+  --color-novi-light-purple: #E4CCFF;
+}
+
+body {
+  font-family: var(--font-family-syne);
+}
